@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  
+
+  root 'pages#home' # what this does is make the roots page, pages controller and home action
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
