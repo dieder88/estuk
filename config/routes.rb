@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
 
+  resources :books
   devise_for :users
   devise_for :models
   root 'pages#home' # what this does is make the roots page, pages controller and home action
